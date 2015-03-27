@@ -1,0 +1,888 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/Ipljava-so/target/nar/javah-include /I../../java/jdk1.8.0_40/include /I../../java/jdk1.8.0_40/include/linux /I../pgsql/include /I../pgsql/include/server /Ipljava-so/src/main/include /Ipljava-so/target/nar/javah-include">
+      <source file="../../../../../../pgsql/include/server/tcop/tcopprot.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/params.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/plannodes.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/procsignal.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/guc.h"/>
+      </source>
+      <source file="../../../../src/main/c/backports.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/backports.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_proc.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_type.h"/>
+         <include file="../../../../../../pgsql/include/server/parser/parse_expr.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/builtins.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/typcache.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/TupleDesc.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_LargeObject.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Function.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/commands/trigger.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_JavaWrapper.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Timestamp.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/nabstime.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/datetime.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Timestamp.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/String_priv.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/storage/proc.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/xlogdefs.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/latch.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/lock.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/pg_sema.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/PgObject.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/JNICalls.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Portal.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/portal.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_PgSavepoint.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/HashMap.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/HashMap_priv.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/syscache.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/attnum.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/BigDecimal.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/memutils.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/numeric.h"/>
+         <include file="../../../../src/main/include/pljava/type/String_priv.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Session.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Session.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/Invocation.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_jdbc_Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Function.h"/>
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../src/main/include/pljava/JNICalls.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/TupleDesc.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+      </source>
+      <source file="../../../../src/main/c/PgSavepoint.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_PgSavepoint.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/ErrorData.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_TriggerData.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/pljava.h" lastModified="14b3d191930">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/lib/stringinfo.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/mb/pg_wchar.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/syscache.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/memutils.h"/>
+         <include file="../../../../../../pgsql/include/server/tcop/tcopprot.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup_details.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/heapam.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/sdir.h"/>
+         <include file="../../../../../../pgsql/include/server/access/skey.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/primnodes.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/bufpage.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/lock.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/relcache.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/snapshot.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Composite.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/commands/portalcmds.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/portal.h"/>
+      </source>
+      <source file="../../../../src/main/c/XactListener.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_XactListener.h"/>
+         <include file="../../../../../../pgsql/include/server/access/xact.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/builtins.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_TupleDesc.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/HeapTupleHeader.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/HeapTupleHeader.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/executor.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/typcache.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Time.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/timestamp.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Relation.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Relation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/type/Relation.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/libpq/pqformat.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/lib/stringinfo.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/libpq/pqsignal.h" lastModified="14ba0fd1ac8">
+         <sysinclude file="../../../../../../../include/signal.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/UDT.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Oid.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/parser/parse_type.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Oid.h"/>
+         <include file="../../javah-include/java_sql_Types.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Type_priv.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject_priv.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Float.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/ErrorData.c" lastModified="14b3d191930">
+         <include file="../../javah-include/org_postgresql_pljava_internal_ErrorData.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/ErrorData.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/SQLInputFromChunk.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/HashMap.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../../../src/main/c/SubXactListener.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_SubXactListener.h"/>
+         <include file="../../../../../../pgsql/include/server/access/xact.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Long.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Byte.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../javah-include/java_sql_Types.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/SQLInputFromTuple.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/executor/executor.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/executor/execdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/typcache.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+      </source>
+      <source file="../../../../src/main/c/SQLOutputToChunk.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../src/main/include/pljava/SQLOutputToChunk.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_jdbc_SQLOutputToChunk.h"/>
+      </source>
+      <source file="../../../../src/main/c/SQLOutputToTuple.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+         <include file="../../../../src/main/include/pljava/SQLOutputToTuple.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Void.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/memutils.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/numeric.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/datetime.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/nodes.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/timestamp.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Array.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupmacs.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Portal.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/commands/portalcmds.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Portal.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/Portal.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../src/main/c/Backend.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/miscadmin.h"/>
+         <include file="../../../../../../pgsql/include/server/libpq/pqsignal.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/commands/trigger.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/elog.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/guc.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/access/heapam.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/syscache.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/catalog.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_proc.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_type.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/ipc.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/proc.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Function.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Session.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/timeout.h"/>
+         <sysinclude file="../../../../../../../include/stdio.h"/>
+         <sysinclude file="../../../../../../../include/ctype.h"/>
+         <sysinclude file="../../../../../../../include/unistd.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/String.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Type.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_type.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Boolean.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/JNICalls.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/pljava.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_ErrorData.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/backports.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/pljava.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/lsyscache.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/SQLOutputToChunk.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../../../pgsql/include/server/lib/stringinfo.h"/>
+      </source>
+      <source file="../../../../src/main/c/Iterator.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/HashMap_priv.h"/>
+         <include file="../../../../src/main/include/pljava/Iterator.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Oid.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/SQLOutputToTuple.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Coerce.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Composite.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/typcache.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Composite.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/HeapTupleHeader.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/backports.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_jdbc_SingleRowReader.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_jdbc_Invocation.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/ExecutionPlan.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/guc.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_ExecutionPlan.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Function.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/Portal.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/HashMap_priv.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject_priv.h"/>
+         <include file="../../../../src/main/include/pljava/Iterator.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_jdbc_SingleRowReader.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/TupleTable.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleTable.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/htup_details.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupmacs.h"/>
+         <include file="../../../../../../pgsql/include/server/access/transam.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/bufpage.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/mb/pg_wchar.h" lastModified="14ba0fd1ac8">
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/xact.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/xlog.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/pg_list.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/relfilenode.h"/>
+      </source>
+      <source file="../../../../src/main/c/Function.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject_priv.h"/>
+         <include file="../../../../src/main/include/pljava/backports.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Function.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/Iterator.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/TriggerData.h"/>
+         <include file="../../../../src/main/include/pljava/type/UDT.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_proc.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_namespace.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/builtins.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/typcache.h"/>
+         <sysinclude file="../../../../../../../include/ctype.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Double.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_jdbc_SQLOutputToChunk.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/SPI.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+      </source>
+      <source file="../../../../src/main/c/PgObject.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../src/main/include/pljava/PgObject_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Relation.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/rel.h"/>
+      </source>
+      <source file="../../../../src/main/c/SQLInputFromChunk.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../src/main/include/pljava/SQLInputFromChunk.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_jdbc_SQLInputFromChunk.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Array.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/nabstime.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/pgtime.h"/>
+         <sysinclude file="../../../../../../../include/limits.h"/>
+      </source>
+      <source file="../../../../src/main/c/SQLInputFromTuple.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../src/main/include/pljava/type/HeapTupleHeader.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/SQLInputFromTuple.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_jdbc_SQLInputFromTuple.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/String.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/String_priv.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+      </source>
+      <source file="../../../../src/main/c/Exception.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/ErrorData.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/HeapTupleHeader.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Date.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/date.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/datetime.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Timestamp.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/byte_array.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_SPI.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Any.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/memutils.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/numeric.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Relation.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/date.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <sysinclude file="../../../../../../../include/math.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/funcapi.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/executor.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/catalog/pg_proc.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/catalog/genbki.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/executor/tuptable.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/buf.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/lsyscache.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/attnum.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/pg_list.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/rel.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/tupdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_am.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_class.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_index.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/bitmapset.h"/>
+         <include file="../../../../../../pgsql/include/server/rewrite/prs2lock.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/block.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/relfilenode.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/relcache.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/reltrigger.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_AclId.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/storage/ipc.h" lastModified="14ba0fd1ac8">
+      </source>
+      <source file="../../../../src/main/include/pljava/type/AclId.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Short.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/elog.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/utils/errcodes.h"/>
+         <sysinclude file="../../../../../../../include/setjmp.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Backend.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/Function.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_ExecutionPlan.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Coerce.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Coerce.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Backend.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/UDT.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_namespace.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/builtins.h"/>
+         <include file="../../../../../../pgsql/include/server/libpq/pqformat.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/bytea.h"/>
+         <include file="../../../../src/main/include/pljava/type/UDT_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/SQLInputFromChunk.h"/>
+         <include file="../../../../src/main/include/pljava/SQLOutputToChunk.h"/>
+         <include file="../../../../src/main/include/pljava/SQLInputFromTuple.h"/>
+         <include file="../../../../src/main/include/pljava/SQLOutputToTuple.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/memutils.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/memnodes.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/tupmacs.h" lastModified="14ba0fd1ac8">
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Tuple.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/fmgr.h" lastModified="14ba0fd1ac8">
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/numeric.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Integer.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_XactListener.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/catalog/pg_namespace.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/catalog/genbki.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/LargeObject.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_LargeObject.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/LargeObject.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_jdbc_SQLInputFromTuple.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/parser/parse_expr.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/parser/parse_node.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/JavaWrapper.c" lastModified="14b3d191930">
+         <include file="../../javah-include/org_postgresql_pljava_internal_JavaWrapper.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/PgObject_priv.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/timeout.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/datatype/timestamp.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/timestamp.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/datatype/timestamp.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/pgtime.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/guc.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+         <include file="../../../../../../pgsql/include/server/tcop/dest.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/array.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_SubXactListener.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/miscadmin.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/pgtime.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/parser/parse_coerce.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/parser/parse_node.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/lib/stringinfo.h" lastModified="14ba0fd1ac8">
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/bytea.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Tuple.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/portal.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/datatype/timestamp.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/execdesc.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/plancache.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/resowner.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/TupleTable.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/postgres.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/c.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/elog.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/palloc.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Oid.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/c/JNICalls.c" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/JNICalls.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/ErrorData.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/LargeObject.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/storage/large_object.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/TriggerData.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/access/heapam.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_TriggerData.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/JavaWrapper.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/TriggerData.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/Relation.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_jdbc_SQLInputFromChunk.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/JavaWrapper.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../../../../java/jdk1.8.0_40/include/jni.h" lastModified="14bf6885db8">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/linux/jni_md.h"/>
+         <sysinclude file="../../../../../../../include/stdio.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/AclId.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/miscadmin.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/acl.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/lsyscache.h"/>
+         <include file="../../../../src/main/include/pljava/type/AclId.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_AclId.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+      </source>
+      <source file="../../../../src/main/c/Session.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/miscadmin.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Session.h"/>
+         <include file="../../../../src/main/include/pljava/Session.h"/>
+         <include file="../../../../src/main/include/pljava/type/AclId.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/tupdesc.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/attnum.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_attribute.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/pg_list.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Time.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/nabstime.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/date.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/datetime.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Time.h"/>
+         <include file="../../../../src/main/include/pljava/type/Timestamp.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/commands/trigger.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/execnodes.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/catalog/pg_type.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/catalog/genbki.h"/>
+      </source>
+      <source file="../../javah-include/org_postgresql_pljava_internal_Portal.h" lastModified="14c567ce928">
+         <include file="../../../../../../../java/jdk1.8.0_40/include/jni.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/TriggerData.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+         <include file="../../../../../../pgsql/include/server/commands/trigger.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Invocation.h" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../src/main/include/pljava/pljava.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/access/htup.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/storage/itemptr.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/storage/large_object.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/utils/snapshot.h"/>
+      </source>
+      <source file="../../../../src/main/c/SPI.c" lastModified="14b3d191930">
+         <include file="../../javah-include/org_postgresql_pljava_internal_SPI.h"/>
+         <include file="../../../../src/main/include/pljava/backports.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/String.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleTable.h"/>
+         <include file="../../../../../../pgsql/include/server/access/xact.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/Timestamp.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Exception.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/PgObject.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/Iterator.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/catalog/catalog.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/catalog/catversion.h"/>
+         <include file="../../../../../../pgsql/include/server/catalog/pg_class.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/relcache.h"/>
+      </source>
+      <source file="../../../../src/main/include/pljava/type/UDT_priv.h" lastModified="14b3d191930">
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/UDT.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/executor/spi.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/lib/ilist.h"/>
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/portal.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/parser/parse_type.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/access/htup.h"/>
+         <include file="../../../../../../pgsql/include/server/parser/parse_node.h"/>
+      </source>
+      <source file="../../../../../../pgsql/include/server/utils/acl.h" lastModified="14ba0fd1ac8">
+         <include file="../../../../../../pgsql/include/server/nodes/parsenodes.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/array.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/snapshot.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Type.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/fmgr.h"/>
+         <include file="../../../../../../pgsql/include/server/funcapi.h"/>
+         <include file="../../../../../../pgsql/include/server/parser/parse_coerce.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/builtins.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/typcache.h"/>
+         <include file="../../../../../../pgsql/include/server/utils/lsyscache.h"/>
+         <include file="../../../../src/main/include/pljava/type/String_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Array.h"/>
+         <include file="../../../../src/main/include/pljava/type/Coerce.h"/>
+         <include file="../../../../src/main/include/pljava/type/Composite.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+         <include file="../../../../src/main/include/pljava/type/Oid.h"/>
+         <include file="../../../../src/main/include/pljava/type/UDT.h"/>
+         <include file="../../../../src/main/include/pljava/Invocation.h"/>
+         <include file="../../../../src/main/include/pljava/HashMap.h"/>
+         <include file="../../../../src/main/include/pljava/SPI.h"/>
+      </source>
+      <source file="../../../../src/main/c/type/Tuple.c" lastModified="14b3d191930">
+         <include file="../../../../../../pgsql/include/server/postgres.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/spi.h"/>
+         <include file="../../../../../../pgsql/include/server/executor/tuptable.h"/>
+         <include file="../../javah-include/org_postgresql_pljava_internal_Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/Backend.h"/>
+         <include file="../../../../src/main/include/pljava/Exception.h"/>
+         <include file="../../../../src/main/include/pljava/type/Type_priv.h"/>
+         <include file="../../../../src/main/include/pljava/type/Tuple.h"/>
+         <include file="../../../../src/main/include/pljava/type/TupleDesc.h"/>
+      </source>
+   </includePath>
+</dependencies>

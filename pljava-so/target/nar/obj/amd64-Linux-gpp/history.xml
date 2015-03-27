@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="gcc 4.8 x86_64-suse-linux -Wall -Wno-long-long -Wpointer-arith -Wconversion -fPIC -c -fPIC -DPKGLIBDIR=&quot;target/lib/&quot; -DPGSQL_MAJOR_VER=9 -DPGSQL_MINOR_VER=4 -DPGSQL_PATCH_VER=1 -DLinux -DGNU_GCC -Ipljava-so/target/nar/javah-include -I../../java/jdk1.8.0_40/include -I../../java/jdk1.8.0_40/include/linux -I../pgsql/include -I../pgsql/include/server -Ipljava-so/src/main/include -Ipljava-so/target/nar/javah-include">
+      <target file="Function.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/Function.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="PgObject.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/PgObject.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Integer.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Integer.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Timestamp.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/Timestamp.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Boolean.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Boolean.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="XactListener.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/XactListener.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="ErrorData.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/ErrorData.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Composite.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Composite.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Any.o" lastModified="14c567ced10">
+         <source file="../../../../src/main/c/type/Any.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Exception.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/Exception.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Coerce.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Coerce.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="LargeObject.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/LargeObject.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Date.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Date.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="JavaWrapper.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/JavaWrapper.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Iterator.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/Iterator.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Type.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/Type.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Void.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/Void.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="TriggerData.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/TriggerData.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SQLInputFromTuple.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/SQLInputFromTuple.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="ExecutionPlan.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/ExecutionPlan.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SQLInputFromChunk.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/SQLInputFromChunk.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Tuple.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/Tuple.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="BigDecimal.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/BigDecimal.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="TupleDesc.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/TupleDesc.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Array.o" lastModified="14c567ced10">
+         <source file="../../../../src/main/c/type/Array.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="TupleTable.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/TupleTable.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Time.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/Time.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SPI.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/SPI.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="PgSavepoint.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/PgSavepoint.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Relation.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/Relation.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SQLOutputToTuple.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/SQLOutputToTuple.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Double.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Double.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SQLOutputToChunk.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/SQLOutputToChunk.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Byte.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Byte.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Short.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/Short.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="byte_array.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/byte_array.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Oid.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/Oid.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="UDT.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/type/UDT.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Float.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/Float.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Portal.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/Portal.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="HeapTupleHeader.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/type/HeapTupleHeader.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="JNICalls.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/JNICalls.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Session.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/Session.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="HashMap.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/HashMap.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="SubXactListener.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/SubXactListener.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Long.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/Long.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="AclId.o" lastModified="14c567ced10">
+         <source file="../../../../src/main/c/type/AclId.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="String.o" lastModified="14c567cf4e0">
+         <source file="../../../../src/main/c/type/String.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Backend.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/Backend.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="Invocation.o" lastModified="14c567cf0f8">
+         <source file="../../../../src/main/c/Invocation.c" lastModified="14b3d191930"/>
+      </target>
+      <target file="backports.o" lastModified="14c567cf8c8">
+         <source file="../../../../src/main/c/backports.c" lastModified="14b3d191930"/>
+      </target>
+   </processor>
+</history>

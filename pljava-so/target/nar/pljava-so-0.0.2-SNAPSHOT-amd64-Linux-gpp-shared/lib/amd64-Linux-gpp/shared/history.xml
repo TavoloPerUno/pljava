@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8 -shared -L/usr/java/jdk1.8.0_40/jre/lib/amd64/server -Bdynamic -ljvm -L/usr/local/pgsql/lib64 -Bdynamic -lecpg -L/usr/local/pgsql/lib64 -Bdynamic -lpgtypes -L/usr/local/pgsql/lib64 -Bdynamic -lpq -shared-libgcc">
+      <target file="libpljava-so-0.0.2-SNAPSHOT.so" lastModified="14c567d0098">
+         <source file="../../../../../../../../../java/jdk1.8.0_40/jre/lib/amd64/server/libjvm.so" lastModified="14bf68859d0"/>
+         <source file="../../../../../../../../pgsql/lib64/libecpg.so.6.6" lastModified="14ba0fd1ac8"/>
+         <source file="../../../../../../../../pgsql/lib64/libpgtypes.so.3.5" lastModified="14ba0fd1ac8"/>
+         <source file="../../../../../../../../pgsql/lib64/libpq.so.5.7" lastModified="14ba0fd1ac8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/AclId.o" lastModified="14c567ced10"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Any.o" lastModified="14c567ced10"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Array.o" lastModified="14c567ced10"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Backend.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/BigDecimal.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Boolean.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Byte.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Coerce.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Composite.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Date.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Double.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/ErrorData.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Exception.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/ExecutionPlan.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Float.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Function.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/HashMap.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/HeapTupleHeader.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Integer.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Invocation.o" lastModified="14c567cf0f8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Iterator.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/JNICalls.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/JavaWrapper.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/LargeObject.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Long.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Oid.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/PgObject.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/PgSavepoint.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Portal.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Relation.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SPI.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SQLInputFromChunk.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SQLInputFromTuple.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SQLOutputToChunk.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SQLOutputToTuple.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Session.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Short.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/String.o" lastModified="14c567cf4e0"/>
+         <source file="../../../../obj/amd64-Linux-gpp/SubXactListener.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Time.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Timestamp.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/TriggerData.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Tuple.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/TupleDesc.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/TupleTable.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Type.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/UDT.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/Void.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/XactListener.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/backports.o" lastModified="14c567cf8c8"/>
+         <source file="../../../../obj/amd64-Linux-gpp/byte_array.o" lastModified="14c567cf8c8"/>
+      </target>
+   </processor>
+</history>
